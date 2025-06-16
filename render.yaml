@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: yt-shorts-generator
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    schedule: "@every 4h"
