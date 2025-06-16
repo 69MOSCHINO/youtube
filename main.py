@@ -1,7 +1,7 @@
-from utils.story_generator import generate_story_or_quote
-from utils.text_to_speech import generate_audio
-from utils.video_generator import generate_video
-from utils.youtube_uploader import upload_video
+from story_generator import generate_story_or_quote
+from text_to_speech import generate_audio
+from video_generator import generate_video
+from youtube_uploader import upload_video
 
 def main():
     print("🎬 Generazione contenuto...")
