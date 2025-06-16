@@ -1,6 +1,8 @@
 openai
 gtts
 moviepy
+imageio
+imageio-ffmpeg
 google-auth-oauthlib
 google-auth
 google-api-python-client
